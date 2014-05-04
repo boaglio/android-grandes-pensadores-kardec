@@ -1,0 +1,16 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    	<!-- cabecalho-->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<!--  dashboard -->	
+		<include layout="@layout/citacao_layout2"/>	
+		
+		<!--  rodape -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

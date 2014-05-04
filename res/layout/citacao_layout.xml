@@ -1,0 +1,59 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff5c6" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@+id/imagemCitacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:contentDescription="@string/citacao"
+            android:src="@drawable/quote" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textoCitacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="@string/citacao"
+            android:textColor="#0c0c0c"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"  >
+
+        <Button
+            android:id="@+id/btnMaisUma"
+            style="@style/ButtonText"
+            android:background="@drawable/black_button"
+            android:text="@string/maisuma" 
+            android:textSize="20sp" >
+        </Button>
+        
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grandes Pensadores: Allan Kardec</string>
+    <string name="titulo">Grandes Pensadores: Allan Kardec</string>
+    <string name="versao">release 1.1.0</string>
+    <string name="creditos">Criado por</string>
+    <string name="comments">Alguma sugestão ? Fale conosco!</string>
+    
+    <string name="rodape">Momentos de sabedoria</string>    
+    
+    <string name="citacao">Citação</string>
+    <string name="config">Configurações</string>
+    <string name="notificarFrase">Avise-me todo dia</string>
+    <string name="sair">Sair</string>
+
+    <string name="sobre">Sobre</string>
+    
+    <string name="maisuma">Mais uma&#8230;</string>
+    
+     <string name="config_button">Salvar configurações</string>
+
+</resources>

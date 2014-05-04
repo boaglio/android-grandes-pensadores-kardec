@@ -1,0 +1,29 @@
+<com.olimposystems.grandespensadores.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    
+	<!--  citacoes -->
+    <Button
+        android:id="@+id/botao_citacoes"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/citacao"
+        android:text="@string/citacao" />
+    
+    <!--  setup -->
+    <Button
+        android:id="@+id/botao_config"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/config"
+        android:text="@string/config" />
+        
+    <!--  sair -->
+    <Button
+        android:id="@+id/botao_saida"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_exit"
+        android:text="@string/sair" />
+
+</com.olimposystems.grandespensadores.DashboardLayout>
